@@ -1,0 +1,87 @@
+/* Styles for the bookstore components */
+.book-list {
+    position: absolute;
+    top: 60px;
+    left: 200px;
+    width: 60%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-list th,
+  .book-list td {
+    padding: 10px 15px; /* Increased padding for a larger font size */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px; /* Increased font size by one step */
+  }
+  
+  .book-list th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* StarRating.css */
+  .star-rating {
+    font-size: 26px; /* Increased font size by one step */
+  }
+  
+  .star {
+    cursor: pointer;
+  }
+  
+  .star.filled {
+    color: gold;
+  }
+  
+  .rating {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 14px; /* Increased font size by one step */
+  }
+  
+  /* Style for the establishment date and website link */
+  .establishment {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    text-align: left;
+    font-size: 14px; /* Increased font size by one step */
+  }
+  
+  .link {
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s;
+    color: black;
+    font-size: 14px; /* Increased font size by one step */
+    &:focus,
+    &:hover {
+      border-color: inherit;
+    }
+  }
+  
+  .bookstore-name {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    font-weight: bold;
+    font-size: 22px; /* Increased font size by one step */
+  }
+  
+  /* Style for the country flag */
+  .country-flag {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+  }
+  
+  .country-flag img {
+    width: 40px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  
